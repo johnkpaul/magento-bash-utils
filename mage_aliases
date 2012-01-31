@@ -1,0 +1,13 @@
+MAGE_UTIL_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+. $MAGE_UTIL_ROOT/getmageworkdir
+
+get_mage_workdir
+
+magecode() {
+        cd $MAGE_ROOT/app/code
+}
+
+magedesign() {
+        cd $MAGE_ROOT/app/design
+}

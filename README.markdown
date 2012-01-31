@@ -1,7 +1,9 @@
 Installation
 ===========
 Add the magento-bash-utils directory to your bash shell PATH
-chmod -R +x magento-bash-utils
+```chmod -R +x magento-bash-utils```
+add ```source mage_aliases``` to your bash profile
+
 
 Usage
 ===========
@@ -15,7 +17,7 @@ magesearch PATTERN
 text search for a string in your local magento codebase
 
 example:
-```
+~~~
 local@local:~$ magesearch "add to cart"
 /opt/workspace/magento/RELEASE_NOTES.txt
 /opt/workspace/magento/app/code/core/Mage/Wishlist/Model/Item.php
@@ -27,7 +29,7 @@ local@local:~$ magesearch "add to cart"
 /opt/workspace/magento/app/code/core/Mage/XmlConnect/controllers/CartController.php
 /opt/workspace/magento/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/General.php
 /opt/workspace/magento/app/locale/en_US/Mage_XmlConnect.csv
-```
+~~~
 
 magecode and magedesign
 ----------------------

@@ -1,13 +1,16 @@
-*Installation*
+Installation
+===========
 Add the magento-bash-utils directory to your bash shell PATH
 chmod -R +x magento-bash-utils
 
-**Usage**
+Usage
+===========
 cd into the magento root directory, wherever that is on your filesystem
 run the mageworkfromhere command in that directory
 now the other commands can be run from anywhere on the filesystem
 
-*magesearch*
+magesearch
+------------
 magesearch PATTERN
 text search for a string in your local magento codebase
 
@@ -25,3 +28,8 @@ local@local:~$ magesearch "add to cart"
 /opt/workspace/magento/app/code/core/Mage/XmlConnect/Block/Adminhtml/Mobile/Edit/Tab/General.php
 /opt/workspace/magento/app/locale/en_US/Mage_XmlConnect.csv
 ```
+
+magecode and magedesign
+----------------------
+either of these commands will switch your working directory into the code or design directories of your magento installation
+

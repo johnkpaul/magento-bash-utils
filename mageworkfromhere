@@ -1,5 +1,5 @@
 MAGE_ROOT=`pwd`
-if[ -f "index.php" ] 
+if [ -f ./index.php ] 
         then
           echo $MAGE_ROOT > /tmp/mageroot.tmp
           echo "MAGE_ROOT successfully saved"

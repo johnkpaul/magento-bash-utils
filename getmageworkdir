@@ -1,4 +1,6 @@
+#!/bin/bash
+
+#Loads the magento installation directory into the global variable MAGE_ROOT
 get_mage_workdir() {
         MAGE_ROOT=`cat /tmp/mageroot.tmp`
-        echo $MAGE_ROOT
 }

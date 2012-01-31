@@ -1,0 +1,8 @@
+#!/bin/bash
+
+MAGE_UTIL_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+. $MAGE_UTIL_ROOT/getmageworkdir
+get_mage_workdir
+
+echo $MAGE_ROOT

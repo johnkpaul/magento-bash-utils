@@ -1,22 +1,28 @@
 Installation
 ===========
 Add the magento-bash-utils directory to your bash shell PATH
+
 ```chmod -R +x magento-bash-utils```
+
 add ```source mage_aliases``` to your bash profile
 
 
 Usage
 ===========
 cd into the magento root directory, wherever that is on your filesystem
+
 run the mageworkfromhere command in that directory
+
 now the other commands can be run from anywhere on the filesystem
 
 magesearch
 ------------
 magesearch PATTERN
+
 text search for a string in your local magento codebase
 
 example:
+
 ~~~
 local@local:~$ magesearch "add to cart"
 /opt/workspace/magento/RELEASE_NOTES.txt

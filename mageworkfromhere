@@ -1,0 +1,8 @@
+MAGE_ROOT=`pwd`
+if[ -f "index.php" ] 
+        then
+          echo $MAGE_ROOT > /tmp/mageroot.tmp
+          echo "MAGE_ROOT successfully saved"
+        else
+          echo "index.php does not exist in this directory"
+fi

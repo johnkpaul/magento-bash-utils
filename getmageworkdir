@@ -1,0 +1,4 @@
+get_mage_workdir() {
+        MAGE_ROOT=`cat /tmp/mageroot.tmp`
+        echo $MAGE_ROOT
+}
